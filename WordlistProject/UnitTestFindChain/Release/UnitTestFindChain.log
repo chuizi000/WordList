@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  unittest_findchain.cpp
+d:\se\wordlist\wordlistproject\wordlistproject\findchain.h(31): error C2065: “NUM”: 未声明的标识符
+d:\se\wordlist\wordlistproject\unittestfindchain\unittest_findchain.cpp(40): error C2535: “const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *UnitTestFindChain::UnitTestBuildMap::__GetTestMethodInfo_TestMethod1(void)”: 已经定义或声明成员函数
+  d:\se\wordlist\wordlistproject\unittestfindchain\unittest_findchain.cpp(14): note: 参见“UnitTestFindChain::UnitTestBuildMap::__GetTestMethodInfo_TestMethod1”的声明
+d:\se\wordlist\wordlistproject\unittestfindchain\unittest_findchain.cpp(41): error C2535: “void UnitTestFindChain::UnitTestBuildMap::TestMethod1(void)”: 已经定义或声明成员函数
+  d:\se\wordlist\wordlistproject\unittestfindchain\unittest_findchain.cpp(14): note: 参见“UnitTestFindChain::UnitTestBuildMap::TestMethod1”的声明

@@ -1,5 +1,8 @@
-﻿  unittest1.cpp
+﻿  unittest_init.cpp
 LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
     正在创建库 D:\se\WordList\WordlistProject\Release\UnitTestInit.lib 和对象 D:\se\WordList\WordlistProject\Release\UnitTestInit.exp
-unittest1.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall Init::Init(int,char * * const)" (??0Init@@QAE@HQAPAD@Z)
-D:\se\WordList\WordlistProject\Release\UnitTestInit.dll : fatal error LNK1120: 1 个无法解析的外部命令
+unittest_init.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall Init::Init(void)" (??0Init@@QAE@XZ)
+unittest_init.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall Init::parse(int,char * * const)" (?parse@Init@@QAEXHQAPAD@Z)
+unittest_init.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall Init::ReadFile(char *)" (?ReadFile@Init@@QAEXPAD@Z)
+unittest_init.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall Init::InitWord(char *)" (?InitWord@Init@@QAEXPAD@Z)
+D:\se\WordList\WordlistProject\Release\UnitTestInit.dll : fatal error LNK1120: 4 个无法解析的外部命令

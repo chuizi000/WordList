@@ -1,6 +1,6 @@
 ab
 bc
 ca
-abb
-bcc
-caa
+cd
+de
+dee

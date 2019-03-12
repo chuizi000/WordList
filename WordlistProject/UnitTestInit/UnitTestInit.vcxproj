@@ -117,7 +117,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>..\WordlistProject\Debug\Core.obj;..\WordlistProject\Debug\FindChain.obj;..\WordlistProject\Debug\Initialization.obj;..\WordlistProject\Debug\pch.obj;..\WordlistProject\Debug\WordlistProject.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\WordlistProject\Debug\Core.obj;..\WordlistProject\Debug\FindChain.obj;..\WordlistProject\Debug\Initialization.obj;..\WordlistProject\Debug\pch.obj;..\WordlistProject\Debug\Error.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

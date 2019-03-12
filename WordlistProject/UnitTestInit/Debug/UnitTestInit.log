@@ -1,3 +1,12 @@
-﻿  unittest_init.cpp
-    正在创建库 D:\se\WordList\WordlistProject\Debug\UnitTestInit.lib 和对象 D:\se\WordList\WordlistProject\Debug\UnitTestInit.exp
-  UnitTestInit.vcxproj -> D:\se\WordList\WordlistProject\Debug\UnitTestInit.dll
+﻿  stdafx.cpp
+  unittest_init.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittest.h(333): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittest.h(349): warning C26495: Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldReportFile' is uninitialized. Always initialize a member variable (type.6).
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(12): warning C6262: 函数使用了堆栈的“40060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(21): warning C6262: 函数使用了堆栈的“40060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(30): warning C6262: 函数使用了堆栈的“40060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(39): warning C6262: 函数使用了堆栈的“40060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(48): warning C6262: 函数使用了堆栈的“40060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(59): warning C6262: 函数使用了堆栈的“40060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+d:\se\wordlist\wordlistproject\unittestinit\unittest_init.cpp(77): warning C6262: 函数使用了堆栈的“41060”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittest.h(463): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).

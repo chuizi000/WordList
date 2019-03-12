@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\se\wordlist\wordlistproject\wordlistproject\</FILEPATH>
+      <FILENAME>findchain.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'FindChain::edges' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>FindChain::{ctor}</FUNCTION>
+    <DECORATED>??0FindChain@@QAE@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

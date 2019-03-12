@@ -85,11 +85,11 @@ namespace UnitTestInit
 			init.ReadFile(text);
 			init.InitWord(text);
 			Assert::AreEqual(init.n,5);
-			Assert::AreEqual(init.words[0],"aa");
-			Assert::AreEqual(init.words[1], "bb");
-			Assert::AreEqual(init.words[2], "cc");
-			Assert::AreEqual(init.words[3], "dd");
-			Assert::AreEqual(init.words[4], "ee");
+			Assert::AreEqual(init.words[0], "ab");
+			Assert::AreEqual(init.words[1], "bc");
+			Assert::AreEqual(init.words[2], "cd");
+			Assert::AreEqual(init.words[3], "de");
+			Assert::AreEqual(init.words[4], "dee");
 		}
 	};
 

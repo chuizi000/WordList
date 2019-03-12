@@ -156,10 +156,11 @@
     <ClInclude Include="FindChain.h" />
     <ClInclude Include="Initialization.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="WordlistProject.h" />
+    <ClInclude Include="Error.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Error.cpp" />
     <ClCompile Include="FindChain.cpp" />
     <ClCompile Include="Initialization.cpp" />
     <ClCompile Include="pch.cpp">

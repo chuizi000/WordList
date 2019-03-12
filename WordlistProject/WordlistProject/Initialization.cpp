@@ -4,13 +4,15 @@
 #include <cstdio>
 #include <cstdlib>
 #include "Initialization.h"
-#include "WordlistProject.h"
+#include "Error.h"
 
 Init::Init()
 {
+	memset(words,NULL,sizeof(words));
 	w = false, c = false, r = false;
 	h = '\0', t = '\0';
 	n = 0;
+	file = NULL;
 }
 
 
@@ -69,6 +71,7 @@ void Init::ReadFile(char* text)
 	if (pf == NULL) error(6);
 	
 	size_t size = 0;
+	if (pf != NULL) 
 	while ((text[size] = fgetc(pf)) != EOF)
 		size++;
 

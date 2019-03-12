@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>333</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::{dtor}</FUNCTION>
+    <DECORATED>??1TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>333</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldReportFile' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::{ctor}</FUNCTION>
+    <DECORATED>??0CrtHandlersSetter@TestClassImpl@CppUnitTestFramework@VisualStudio@Microsoft@@QAE@XZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\se\wordlist\wordlistproject\unittestcore\</FILEPATH>
+      <FILENAME>unittest_core.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“40064”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>UnitTestCore::UnitTestinit_word::TestMethod1</FUNCTION>
+    <DECORATED>?TestMethod1@UnitTestinit_word@UnitTestCore@@QAEXXZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\se\wordlist\wordlistproject\unittestcore\</FILEPATH>
+      <FILENAME>unittest_core.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“40064”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>UnitTestCore::UnitTestinit_word::TestMethod2</FUNCTION>
+    <DECORATED>?TestMethod2@UnitTestinit_word@UnitTestCore@@QAEXXZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\se\wordlist\wordlistproject\unittestcore\</FILEPATH>
+      <FILENAME>unittest_core.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“41064”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>UnitTestCore::UnitTestbuild_map::TestMethod1</FUNCTION>
+    <DECORATED>?TestMethod1@UnitTestbuild_map@UnitTestCore@@QAEXXZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\</FILEPATH>
+      <FILENAME>cppunittest.h</FILENAME>
+      <LINE>463</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Microsoft::VisualStudio::CppUnitTestFramework::TestClass&lt;UnitTestCore::UnitTestgen_chain_char&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$TestClass@VUnitTestgen_chain_char@UnitTestCore@@@CppUnitTestFramework@VisualStudio@Microsoft@@UAE@XZ</DECORATED>
+    <FUNCLINE>463</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
