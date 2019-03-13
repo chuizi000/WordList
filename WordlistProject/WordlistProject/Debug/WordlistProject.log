@@ -1,7 +1,2 @@
-﻿  pch.cpp
-  Core.cpp
-  Error.cpp
-  FindChain.cpp
-  Initialization.cpp
-  WordlistProject.cpp
-d:\se\wordlist\wordlistproject\wordlistproject\findchain.cpp(15): warning C26495: Variable 'FindChain::edges' is uninitialized. Always initialize a member variable (type.6).
+﻿  FindChain.cpp
+  WordlistProject.vcxproj -> D:\se\WordList\WordlistProject\Debug\WordlistProject.exe

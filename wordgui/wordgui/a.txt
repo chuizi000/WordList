@@ -1,0 +1,6 @@
+5
+ca
+ab
+bc
+cd
+dee

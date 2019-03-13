@@ -1,0 +1,37 @@
+﻿  Core.cpp
+d:\se\wordlist\wordgui\wordgui\core.cpp(1): fatal error C1083: 无法打开预编译头文件: “x64\Debug\wordgui.pch”: No such file or directory
+  error.cpp
+d:\se\wordlist\wordgui\wordgui\error.cpp(37): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  FindChain.cpp
+d:\se\wordlist\wordgui\wordgui\findchain.cpp(1): fatal error C1083: 无法打开预编译头文件: “x64\Debug\wordgui.pch”: No such file or directory
+  imguifilesystem.cpp
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(54): warning C4005: “IMGUIFS_CDECL”: 宏重定义
+  d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(52): note: 参见“IMGUIFS_CDECL”的前一个定义
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(77): warning C4005: “DIRENT_MAX_PATH”: 宏重定义
+  d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(75): note: 参见“DIRENT_MAX_PATH”的前一个定义
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(3272): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  imgui.cpp
+d:\se\wordlist\wordgui\wordgui\imgui\imgui.cpp(2123): warning C4005: “va_copy”: 宏重定义
+  d:\se\wordlist\wordgui\wordgui\imgui\imgui.cpp(2121): note: 参见“va_copy”的前一个定义
+d:\se\wordlist\wordgui\wordgui\imgui\imgui.cpp(9550): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  imgui_demo.cpp
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_demo.cpp(98): warning C4005: “IM_NEWLINE”: 宏重定义
+  d:\se\wordlist\wordgui\wordgui\imgui\imgui_demo.cpp(94): note: 参见“IM_NEWLINE”的前一个定义
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_demo.cpp(4350): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  imgui_draw.cpp
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_draw.cpp(124): error C2006: “#include”: 应输入文件名，却找到“标识符”
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_draw.cpp(147): error C2006: “#include”: 应输入文件名，却找到“标识符”
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_draw.cpp(3289): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  imgui_impl_glfw.cpp
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_impl_glfw.cpp(329): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  imgui_impl_opengl3.cpp
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_impl_opengl3.cpp(92): error C2006: “#include”: 应输入文件名，却找到“标识符”
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_impl_opengl3.cpp(564): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  imgui_widgets.cpp
+d:\se\wordlist\wordgui\wordgui\imgui\imgui_widgets.cpp(6808): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  Initialization.cpp
+d:\se\wordlist\wordgui\wordgui\initialization.cpp(1): fatal error C1083: 无法打开预编译头文件: “x64\Debug\wordgui.pch”: No such file or directory
+  wordgui.cpp
+d:\se\wordlist\wordgui\wordgui\wordgui.cpp(27): error C2006: “#include”: 应输入文件名，却找到“标识符”
+d:\se\wordlist\wordgui\wordgui\wordgui.cpp(399): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在生成代码...

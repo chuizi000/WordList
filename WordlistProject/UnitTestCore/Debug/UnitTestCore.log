@@ -1,8 +1,3 @@
-﻿  stdafx.cpp
-  unittest_core.cpp
-c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittest.h(333): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
-c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittest.h(349): warning C26495: Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldReportFile' is uninitialized. Always initialize a member variable (type.6).
-d:\se\wordlist\wordlistproject\unittestcore\unittest_core.cpp(12): warning C6262: 函数使用了堆栈的“40064”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
-d:\se\wordlist\wordlistproject\unittestcore\unittest_core.cpp(21): warning C6262: 函数使用了堆栈的“40064”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
-d:\se\wordlist\wordlistproject\unittestcore\unittest_core.cpp(41): warning C6262: 函数使用了堆栈的“41064”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。
-c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittest.h(463): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+﻿  unittest_core.cpp
+    正在创建库 D:\se\WordList\WordlistProject\Debug\UnitTestCore.lib 和对象 D:\se\WordList\WordlistProject\Debug\UnitTestCore.exp
+  UnitTestCore.vcxproj -> D:\se\WordList\WordlistProject\Debug\UnitTestCore.dll

@@ -13,22 +13,22 @@ namespace UnitTestCore
 		{
 			Core core;
 			char* argv[10] = { "program","-w","../WordlistProject/atest.txt" };
-			Init init = core.init_word(3, argv);
-			Assert::IsTrue(init.w);
-			Assert::AreEqual(init.file, "../WordlistProject/atest.txt");
+			Init* init = core.init_word(3, argv);
+			Assert::IsTrue(init->w);
+			Assert::AreEqual(init->file, "../WordlistProject/atest.txt");
 		}
 
 		TEST_METHOD(TestMethod2)
 		{
 			Core core;
 			char* argv[10] = { "program","-w","a.txt","-r","-t","q","-h","w" };
-			Init init = core.init_word(8, argv);
-			Assert::IsTrue(init.w);
-			Assert::IsFalse(init.c);
-			Assert::AreEqual(init.file, "a.txt");
-			Assert::AreEqual(init.t,'q');
-			Assert::IsTrue(init.r);
-			Assert::AreEqual(init.h,'w');
+			Init* init = core.init_word(8, argv);
+			Assert::IsTrue(init->w);
+			Assert::IsFalse(init->c);
+			Assert::AreEqual(init->file, "a.txt");
+			Assert::AreEqual(init->t,'q');
+			Assert::IsTrue(init->r);
+			Assert::AreEqual(init->h,'w');
 		}
 
 
@@ -43,17 +43,17 @@ namespace UnitTestCore
 			Core core;
 			char text[1000];
 			char* argv[10] = { "program","-w","../WordlistProject/atest.txt" };
-			Init init = core.init_word(3, argv);
-			Assert::IsTrue(init.w);
-			Assert::AreEqual(init.file, "../WordlistProject/atest.txt");
+			Init* init = core.init_word(3, argv);
+			Assert::IsTrue(init->w);
+			Assert::AreEqual(init->file, "../WordlistProject/atest.txt");
 			core.read_file(init,text);
 			core.build_map(init,text);
-			Assert::AreEqual(init.n, 5);
-			Assert::AreEqual(init.words[0], "ab");
-			Assert::AreEqual(init.words[1], "bc");
-			Assert::AreEqual(init.words[2], "cd");
-			Assert::AreEqual(init.words[3], "de");
-			Assert::AreEqual(init.words[4], "dee");
+			Assert::AreEqual(init->n, 5);
+			Assert::AreEqual(init->words[0], "ab");
+			Assert::AreEqual(init->words[1], "bc");
+			Assert::AreEqual(init->words[2], "cd");
+			Assert::AreEqual(init->words[3], "de");
+			Assert::AreEqual(init->words[4], "dee");
 		}
 	};
 

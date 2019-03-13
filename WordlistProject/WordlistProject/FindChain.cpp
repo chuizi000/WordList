@@ -137,6 +137,8 @@ int FindChain::GetWordChain_NoRing(char * result[])// char* result[],)
 		if (rd[i] == 0)
 		{
 			if (hasHead && (head - 'a') != i) continue;
+			if (edges[i][i].size() > 0)
+				dist[i] = edges[i][i][0].key;
 			Q.push(i);
 			use[i] = 1;
 			parent[i] = i;
@@ -149,8 +151,8 @@ int FindChain::GetWordChain_NoRing(char * result[])// char* result[],)
 			if (edges[top][j].size() > 0 && j != top)
 			{
 				int newdis = dist[top] + edges[top][j][0].key;
-				if (edges[top][top].size() > 0)
-					newdis += edges[top][top][0].key;
+				if (edges[j][j].size() > 0)
+					newdis += edges[j][j][0].key;
 				if (dist[j] < newdis)
 				{
 					dist[j] = newdis;
@@ -162,6 +164,11 @@ int FindChain::GetWordChain_NoRing(char * result[])// char* result[],)
 		Q.pop();
 	}
 	int ans = 26;
+	for (int i = 0; i < NUM; i++)
+	{
+		if (edges[i][i].size() > 0 && dist[i] == 0)
+			dist[i] = edges[i][i][0].key;
+	}
 	for (int i = 0; i < NUM; i++)
 		if (dist[ans] < dist[i])
 		{
@@ -190,7 +197,6 @@ int FindChain::GetWordChain_NoRing(char * result[])// char* result[],)
 	}
 	return ans_len;
 }
-
 void FindChain::dfs(int node, int dist, int num)
 {
 	//printf("%d,%d,%d\n",node,dist,num);
@@ -268,13 +274,13 @@ int FindChain::GetWordChain_Ring(char * result[])
 		for (int i = 0; i < NUM; i++) node[i] = false;
 		for (int i = 0; i < NUM; i++)
 		{
-			if (node[i]) continue;
+			if (tail == '\0') if (node[i]) continue;
 			//printf("$node %d\n",i);
 			dfs(i, 0, 0);
-			updateNode(node);
+			if (tail == '\0') updateNode(node);
 		}
 	}
-	for (int i = 0;i<ansNum;i++)
-		result[i] = ansWords[i+1];
+	for (int i = 0; i < ansNum; i++)
+		result[i] = ansWords[i + 1];
 	return ansNum;
 }
