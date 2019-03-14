@@ -39,9 +39,14 @@ int Core::gen_chain_char(char * words[], int len, char * result[], char head, ch
 
 void Core::printf_chain(char * result[], int result_len)
 {
-	printf("%d\n", result_len);
+	//printf("%d\n", result_len);
+	
 	for (int i = 0; i < result_len; i++)
 		printf("%s\n", result[i]);
+	FILE* ff = fopen("solution.txt", "w");
+	for (int i = 0; i < result_len; i++)
+		fprintf(ff,"%s\n", result[i]);
+	fclose(ff);
 }
 
 Init* Core::init_word(int argc, char * argv[])

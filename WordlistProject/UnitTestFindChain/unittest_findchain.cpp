@@ -159,14 +159,27 @@ namespace UnitTestFindChain
 		}
 		TEST_METHOD(TestMethod7)
 		{
-			char* words[10] = { "abb","acc","bc", "cd", "de", "dd" };
+			char* words[10] = { "aa","cc","bb", "dd", "ee", "rr" };
 			char* result[105];
 			FindChain findchain;
 			findchain.BuildMap(words, 6, 1, 'c', 0);
 			int len = findchain.GetWordChain_NoRing(result);
-			Assert::AreEqual(len, 3);
+			Assert::AreEqual(len, 1);
 		}
-
+		TEST_METHOD(TestMethod8)
+		{
+			char* words[10] = { "abb","bc", "cd", "de", "drrrrr","rrrrr" };
+			char* result[105];
+			FindChain findchain;
+			findchain.BuildMap(words, 6, 1, 0, 0);
+			int len = findchain.GetWordChain_NoRing(result);
+			Assert::AreEqual(len, 5);
+			for (int i = 0; i < 4; i++)
+			{
+				int slen = strlen(result[i]);
+				Assert::IsTrue(result[i][slen - 1] == result[i + 1][0]);
+			}
+		}
 	};
 
 

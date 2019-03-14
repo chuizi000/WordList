@@ -1,5 +1,1 @@
-﻿  stdafx.cpp
-  unittest_core.cpp
-d:\se\wordlist\wordlistproject\unittestcore\unittest_core.cpp(185): warning C4101: “core”: 未引用的局部变量
-    正在创建库 D:\se\WordList\WordlistProject\Debug\UnitTestCore.lib 和对象 D:\se\WordList\WordlistProject\Debug\UnitTestCore.exp
-  UnitTestCore.vcxproj -> D:\se\WordList\WordlistProject\Debug\UnitTestCore.dll
+﻿  UnitTestCore.vcxproj -> D:\se\WordList\WordlistProject\Debug\UnitTestCore.dll

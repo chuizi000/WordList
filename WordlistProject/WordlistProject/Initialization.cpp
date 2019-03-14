@@ -74,8 +74,11 @@ void Init::ReadFile(char* text)
 	
 	size_t size = 0;
 	if (pf != NULL) 
-	while ((text[size] = fgetc(pf)) != EOF)
-		size++;
+		while ((text[size] = fgetc(pf)) != EOF)
+		{
+			size++;
+			if (size > 1000000) error(9);
+		}
 
 	text[size] = '\0';
 }

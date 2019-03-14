@@ -221,11 +221,11 @@ static void FlagCheckBox(Core& core, char* inputText, char* outputText)
 			return;
 		}
 
-		sprintf(outputText, "%d\n", result_len);
-		printf("%s",outputText);
-		for (int i = 0; i < result_len; i++)
-			printf("%s\n", result[i]);
-		int i = strlen(outputText), j = 0, k = 0;
+		//sprintf(outputText, "%d\n", result_len);
+		//printf("%s",outputText);
+		/*for (int i = 0; i < result_len; i++)
+			printf("%s\n", result[i]);*/
+		int i = 0, j = 0, k = 0;
 		while (1)
 		{
 			if (k == result_len)

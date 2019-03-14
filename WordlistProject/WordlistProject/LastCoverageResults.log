@@ -1,0 +1,21 @@
+[2019-03-14 19:57:16] [info] Start Program:
+Path:"D:\se\WordList\WordlistProject\Debug\WordlistProject.exe"
+Arguments:-w a.txt 
+Working directory: "D:\se\WordList\WordlistProject\WordlistProject\"
+Modules: Selected: D:\se\WordList\WordlistProject\Debug\WordlistProject.exe Excluded: 
+Sources: Selected: D:\se\WordList\WordlistProject\WordlistProject Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\chuizi\AppData\Local\Temp\uy0mfblh.a0e 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-03-14 19:57:16] [info] Module: D:\se\WordList\WordlistProject\Debug\WordlistProject.exe is selected because it matches selected pattern: D:\se\WordList\WordlistProject\Debug\WordlistProject.exe
+[2019-03-14 19:57:17] [info] ----------------------------------------------------
+[2019-03-14 19:57:17] [info] Coverage binary generated in file: C:\Users\chuizi\AppData\Local\Temp\uy0mfblh.a0e
+[2019-03-14 19:57:17] [info] ----------------------------------------------------

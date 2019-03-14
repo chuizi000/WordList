@@ -29,6 +29,15 @@ void error(int e_code)
 	case 6:
 		throw "File not found";
 		break;
+	case 7:
+		throw "Too long words";
+		break;
+	case 8:
+		throw "Too many words";
+		break;
+	case 9:
+		throw "Too long text";
+		break;
 	default:
 		throw "unknown error";
 		break;

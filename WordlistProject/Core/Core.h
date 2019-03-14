@@ -56,9 +56,9 @@ class FindChain
 {
 public:
 
-	int canGo[26][26];
-	std::vector<Wordedge> edges[26][26];
-	size_t useEdge[26][26];
+	int canGo[30][30];
+	std::vector<Wordedge> edges[30][30];
+	size_t useEdge[30][30];
 	int ansLen;
 	int ansNum;
 	char* ansWords[105];

@@ -1,3 +1,19 @@
-﻿  wordgui.cpp
+﻿  imguifilesystem.cpp
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(2070): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(2082): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(2192): warning C4305: “参数”: 从“double”到“float”截断
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(2193): warning C4305: “参数”: 从“double”到“float”截断
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(2194): warning C4305: “参数”: 从“double”到“float”截断
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(2643): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+d:\se\wordlist\wordgui\wordgui\imguifilesystem.cpp(3078): warning C4305: “参数”: 从“double”到“float”截断
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_widgets.cpp
+  wordgui.cpp
+  正在生成代码...
+  gl3w.c
 LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   wordgui.vcxproj -> D:\se\WordList\wordgui\Debug\wordgui.exe

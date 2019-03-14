@@ -128,7 +128,7 @@ int FindChain::GetWordChain_NoRing(char * result[])// char* result[],)
 	if (tail != '\0') hasTail = 1;
 
 	for (int i = 0; i < 26; i++)
-		for (int j = 0; i <= 26; i++)
+		for (int j = 0; j < 26; j++)
 			if (i != j)
 				for (size_t k = 0; k < edges[i][j].size(); k++)
 					rd[j]++;
@@ -164,11 +164,7 @@ int FindChain::GetWordChain_NoRing(char * result[])// char* result[],)
 		Q.pop();
 	}
 	int ans = 26;
-	for (int i = 0; i < NUM; i++)
-	{
-		if (edges[i][i].size() > 0 && dist[i] == 0)
-			dist[i] = edges[i][i][0].key;
-	}
+
 	for (int i = 0; i < NUM; i++)
 		if (dist[ans] < dist[i])
 		{
